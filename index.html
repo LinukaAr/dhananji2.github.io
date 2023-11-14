@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-image: url('images/plage.jpg');
+            background-size: cover;
+            text-align: center; 
+            font-family: sans-serif;
+        }
+
+        h1 {
+            margin-top: 20%;
+            font-size: 50px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 30px;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+
+        .category {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap; 
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px; 
+            margin-right: 30px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            h1{
+                font-size: 30px;
+            }
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Please Select Your Category</h1>
+    <div class="category">
+        <div>
+            <p>Child Birth</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScVtHRQomzFacg-Ty3QAgTVYZPtjH5VlAqWW5m1m1yRTEExmg/viewform" class="button" target="_blank">Click</a>
+        </div>
+        <div>
+            <p>Marriage</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScVtHRQomzFacg-Ty3QAgTVYZPtjH5VlAqWW5m1m1yRTEExmg/viewform" class="button" target="_blank">Click</a>
+        </div>
+        <div>
+            <p>Death</p>
+            <a href="https://forms.gle/86t2MufzZJLpMu7s9" class="button" target="_blank">Click</a>
+        </div>
+    </div>
+</body>
+</html>
